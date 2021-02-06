@@ -1,6 +1,7 @@
 :root {
   /* color */
-  --color-black: #3f454d;
+  --color-background: #486182;
+  --color-title : #ffd700;
   --color-white: #ffffff;
   --color-blue: #3b88c3;
   --color-yellow: #fbbe28;
@@ -26,13 +27,14 @@ ul{
 
 body {
   margin: 0;
-  background-color: var(--color-black);
+  background-color: var(--color-background);
 }
 
 .title {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: var(--color-title);
 }
 
 .title__logo{
