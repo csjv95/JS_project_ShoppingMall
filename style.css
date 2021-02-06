@@ -39,6 +39,7 @@ body {
 
 .title__logo{
   padding: 0 1em;
+  cursor: pointer;
 }
 
 .main__nav{

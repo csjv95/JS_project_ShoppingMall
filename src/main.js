@@ -14,6 +14,26 @@ function displayItems(items) {
   return (container.innerHTML = list);
 }
 
+function onButtonClick(event, items) {
+  const dataset = event.target.dataset;
+    const key = dataset.key;
+    const value = dataset.value;
+
+    if(key == null || value == null) {
+      return;
+    }else {
+      displayItems(items.filter(item => item[key] === value));
+    }
+}
+
+function setEventListeners (items) {
+  const logo = document.querySelector('.title__logo');
+  const button = document.querySelector('.main__nav');
+
+  logo.addEventListener('click', () => displayItems(items));
+  button.addEventListener('click', event => onButtonClick(event,items))
+}
+
 // item 
 function createHTMLString(item) {
   return `
@@ -23,7 +43,7 @@ function createHTMLString(item) {
     src="${item.image}"
     alt="pink_p.png"
     />
-    <span class="list__item__description">color :${item.color} gen : ${item.type} type :${item.size}</span>
+    <span class="list__item__description">color :${item.color} type : ${item.type} size :${item.size}</span>
   </li>`;
 }
 
@@ -32,5 +52,6 @@ loadItems()
   .then((items) => {
     // chek items console.log(items); 
     displayItems(items);
+    setEventListeners(items)
   })
   .catch(console.log);
