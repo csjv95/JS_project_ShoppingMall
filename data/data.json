@@ -1,0 +1,75 @@
+{
+  "items" : [
+    {
+      "type" :"pants",
+      "gender" : "male",
+      "size" : "large",
+      "color" : "blue",
+      "image" : "../img/blue_p.png"
+    },
+
+    {
+      "type" :"Skirt",
+      "gender" : "female",
+      "size" : "small",
+      "color" : "blue",
+      "image" : "../img/blue_s.png"
+    },
+
+    {
+      "type" :"tshrt",
+      "gender" : "male",
+      "size" : "midum",
+      "color" : "blue",
+      "image" : "../img/blueyellow_t.png"
+    },
+
+    {
+      "type" :"pants",
+      "gender" : "male",
+      "size" : "large",
+      "color" : "blue",
+      "image" : "../img/yellow_p.png"
+    },
+
+    {
+      "type" :"Skirt",
+      "gender" : "female",
+      "size" : "small",
+      "color" : "blue",
+      "image" : "../img/yellow_s.png"
+    },
+
+    {
+      "type" :"tshrt",
+      "gender" : "male",
+      "size" : "midum",
+      "color" : "blue",
+      "image" : "../img/yellow_t.png"
+    },
+
+    {
+      "type" :"pants",
+      "gender" : "male",
+      "size" : "large",
+      "color" : "blue",
+      "image" : "../img/pink_p.png"
+    },
+
+    {
+      "type" :"Skirt",
+      "gender" : "female",
+      "size" : "small",
+      "color" : "blue",
+      "image" : "../img/pink_s.png"
+    },
+
+    {
+      "type" :"tshrt",
+      "gender" : "male",
+      "size" : "midum",
+      "color" : "blue",
+      "image" : "../img/pink_t.png"
+    }
+  ]
+}
